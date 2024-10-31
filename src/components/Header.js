@@ -11,7 +11,7 @@ const Header = () => {
   const toggleNavbar = () => setExpanded(!expanded);
 
   return (
-<Navbar className="navbar-custom" expand="lg" sticky="top" style={{ padding: '15px' }}>
+<Navbar className="navbar-custom" expand="lg" sticky="top" expanded={expanded} style={{ padding: '15px' }}>
 <Navbar.Brand as={Link} to="/" onClick={() => setExpanded(false)}>
         <img src={logo} alt="Logo" style={{ width: '150px', height: 'auto' }} />
       </Navbar.Brand>

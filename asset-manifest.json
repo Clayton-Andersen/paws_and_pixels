@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/paws_and_pixels/static/css/main.242531b5.css",
+    "main.js": "/paws_and_pixels/static/js/main.0c0a2a9c.js",
+    "static/media/logo.jpg": "/paws_and_pixels/static/media/logo.a4e60785c8a7fe581257.jpg",
+    "index.html": "/paws_and_pixels/index.html",
+    "main.242531b5.css.map": "/paws_and_pixels/static/css/main.242531b5.css.map",
+    "main.0c0a2a9c.js.map": "/paws_and_pixels/static/js/main.0c0a2a9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.242531b5.css",
+    "static/js/main.0c0a2a9c.js"
+  ]
+}

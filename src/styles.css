@@ -1,0 +1,83 @@
+:root {
+  --primary-color: rgb(43, 56, 36);
+  /* Header & Footer Background */
+  --secondary-color: #f5f5f5;
+  /* Background */
+  --accent-color: #e6a23c;
+  /* Buttons and Active Links */
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+} */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar {
+  padding: 20px;
+  /* Adjust height as needed */
+}
+
+.navbar-brand img {
+  width: 150px;
+  /* Adjust width as needed */
+  height: auto;
+}
+
+.nav-link {
+  font-size: 18px;
+  /* Adjust font size as needed */
+}
+
+nav.navbar.navbar-custom {
+  background-color: rgb(43, 56, 36) !important;
+  color: #ffffff !important;
+}
+
+nav.navbar.navbar-custom .nav-link {
+  color: #ffffff !important;
+}
+
+.btn-custom {
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom:hover {
+  background-color: darken(var(--accent-color), 10%);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer a {
+  color: var(--accent-color);
+  margin: 0 10px;
+  text-decoration: none;
+}

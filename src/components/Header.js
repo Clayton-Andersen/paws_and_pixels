@@ -15,7 +15,7 @@ const Header = () => {
 <Navbar.Brand as={Link} to="/" onClick={() => setExpanded(false)}>
         <img src={logo} alt="Logo" style={{ width: '150px', height: 'auto' }} />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleNavbar} />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleNavbar} className="custom-toggler"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto" style={{ fontSize: '18px' }}>
           <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>About</Nav.Link>

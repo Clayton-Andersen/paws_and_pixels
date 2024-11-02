@@ -13,7 +13,7 @@ const Header = () => {
   return (
 <Navbar className="navbar-custom" expand="lg" sticky="top" expanded={expanded} style={{ padding: '15px' }}>
 <Navbar.Brand as={Link} to="/" onClick={() => setExpanded(false)}>
-        <img src={logo} alt="Logo" style={{ width: '150px', height: 'auto' }} />
+        <img src={logo} alt="Logo" style={{ width: '180px', height: 'auto' }} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleNavbar} className="custom-toggler"/>
       <Navbar.Collapse id="basic-navbar-nav">
@@ -21,7 +21,7 @@ const Header = () => {
           <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>About</Nav.Link>
           <Nav.Link as={Link} to="/contact" onClick={() => setExpanded(false)}>Contact</Nav.Link>
           <Nav.Link as={Link} to="/what-to-expect" onClick={() => setExpanded(false)}>What to Expect</Nav.Link>
-          <Nav.Link as={Link} to="/gallery" onClick={() => setExpanded(false)}>Photo Gallery</Nav.Link>
+          <Nav.Link as={Link} to="/gallery" onClick={() => setExpanded(false)}>Portfolio</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import WhatToExpect from './pages/WhatToExpect';
 import Gallery from './pages/Gallery';
 import './App.css'; // Ensure this import is here to apply the styles
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const App = () => {
   return (
